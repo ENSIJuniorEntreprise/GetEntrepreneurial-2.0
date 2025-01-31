@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae1eee2b.css",
+    "main.js": "/static/js/main.ef2f6daf.js",
+    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/media/form.jpg": "/static/media/form.2655640b450f8a3b9b6a.jpg",
+    "static/media/slider2.jpg": "/static/media/slider2.f26549b5d99e9f3dadae.jpg",
+    "static/media/image6.jpg": "/static/media/image6.33a90b7cb07804f59e90.jpg",
+    "static/media/image4.jpg": "/static/media/image4.1b12575b17b8b0853bef.jpg",
+    "static/media/image44.jpg": "/static/media/image44.aacb34a64bd3bc230daf.jpg",
+    "static/media/slider3.jpg": "/static/media/slider3.161c73dca8f6d620f73d.jpg",
+    "static/media/Logoo.png": "/static/media/Logoo.01efe4df7075e61c5ac2.png",
+    "static/media/logo2.png": "/static/media/logo2.e2453e18b6cee67f68f6.png",
+    "static/media/slider1.jpg": "/static/media/slider1.a4bc4a9b2df05338b108.jpg",
+    "static/media/image3.png": "/static/media/image3.fad87512baae3bc11ff2.png",
+    "static/media/Proxima Nova Bold.otf": "/static/media/Proxima Nova Bold.fcaab2524c5baabd71f6.otf",
+    "static/media/ProximaNova-Regular.otf": "/static/media/ProximaNova-Regular.ea03f826587148b7335d.otf",
+    "static/media/bg.jpg": "/static/media/bg.4434eaa276c896f7a8b2.jpg",
+    "static/media/Gilroy-ExtraBold.otf": "/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Light.otf": "/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "static/media/Get.png": "/static/media/Get.6b82245002e704f3e13c.png",
+    "static/media/loader.png": "/static/media/loader.2039f3d43212f8cf05da.png",
+    "static/media/new.png": "/static/media/new.77e4d0e523503d7c675c.png",
+    "static/media/logo.png": "/static/media/logo.961a0057ab65e007fb0c.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.ae1eee2b.css.map": "/static/css/main.ae1eee2b.css.map",
+    "main.ef2f6daf.js.map": "/static/js/main.ef2f6daf.js.map",
+    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae1eee2b.css",
+    "static/js/main.ef2f6daf.js"
+  ]
+}

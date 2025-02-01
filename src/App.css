@@ -1,0 +1,55 @@
+/* @font-face {
+    font-family: 'Photograph Signature';
+    src: url(./Assets/fonts/Photograph\ Signature.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy ExtraBold';
+    src: url(./Assets/fonts/Gilroy-ExtraBold.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url(./Assets/fonts/Gilroy-Light.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Proxima Nova ExtraBold';
+    src: url(./Assets/fonts/Proxima\ Nova\ Extrabold.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url(./Assets/fonts/Proxima\ Nova\ Bold.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url(./Assets/fonts/ProximaNova-Regular.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Proxima Nova Thin';
+    src: url(./Assets/fonts/Proxima\ Nova\ Alt\ Thin.otf) format('truetype');
+}
+body {
+    font-family: 'Montserrat', sans-serif !important;
+  } */
+
+  @font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url(./Assets/fonts/ProximaNova-Regular.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url(./Assets/fonts/Gilroy-Light.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy ExtraBold';
+    src: url(./Assets/fonts/Gilroy-ExtraBold.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url(./Assets/fonts/Proxima\ Nova\ Bold.otf) format('truetype');
+}
+
+*{
+    font-family: 'Proxima Nova Regular' ;
+}

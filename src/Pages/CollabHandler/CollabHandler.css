@@ -1,0 +1,89 @@
+/* Collab.css */
+
+.collab-container {
+    max-width:100%;
+    margin: 0 auto;
+}
+
+.collab-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.collab-table th,
+.collab-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.collab-table th:nth-child(1),
+.collab-table td:nth-child(1),
+.collab-table th:nth-child(2),
+.collab-table td:nth-child(2),
+.collab-table th:nth-child(3),
+.collab-table td:nth-child(3),
+.collab-table th:nth-child(4),
+.collab-table td:nth-child(4),
+.collab-table th:nth-child(5),
+.collab-table td:nth-child(5),
+.collab-table th:nth-child(6),
+.collab-table td:nth-child(6),
+.collab-table th:nth-child(7),
+.collab-table td:nth-child(7),
+.collab-table th:nth-child(8),
+.collab-table td:nth-child(8) {
+    width: 90%;
+    max-width: 90%;
+}
+
+.collab-table th a,
+.collab-table td a,
+.CollabPartenaire {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.input-field,
+.custom-file {
+    margin-bottom: 10px;
+}
+
+.custom-file {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: -14px;
+}
+
+.custom-file input {
+    position: absolute;
+    font-size: 100px;
+    opacity: 0;
+}
+
+.valid-feedback {
+    color: green;
+    margin-top: 5px;
+}
+
+.submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}

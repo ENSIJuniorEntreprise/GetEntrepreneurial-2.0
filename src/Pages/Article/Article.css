@@ -1,0 +1,92 @@
+/* Article.css */
+
+/* Style for the article table */
+.article-table {
+  width: 100%;
+  max-width: 100%; /* Set a maximum width for the table */
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  table-layout: fixed; /* Fixe la largeur de la table */
+}
+
+.article-table th,
+.article-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.article-table th {
+  background-color: #f2f2f2;
+}
+
+/* Set specific width for each column */
+.article-table th:nth-child(1),
+.article-table td:nth-child(1) {
+  width: 20%; /* Adjust the width as needed for the "title" column */
+}
+
+.article-table th:nth-child(2),
+.article-table td:nth-child(2) {
+  width: 40%; /* Adjust the width as needed for the "content" column */
+}
+
+.article-table th:nth-child(3),
+.article-table td:nth-child(3) {
+  width: 10%; /* Adjust the width as needed for the "date" column */
+}
+
+.article-table th:nth-child(4),
+.article-table td:nth-child(4) {
+  width: 10%; /* Adjust the width as needed for the "image" column */
+}
+
+.article-table th:nth-child(4) a,
+.article-table td:nth-child(4) a {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+
+
+/* Style for the input fields and buttons */
+.input-field {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the form container */
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.file {
+  border: 2px solid #45a049;
+  width: 20px;
+  height: 20px;
+}
+
+.custom-file {
+  border: 1px solid black;
+  padding: 8px;
+  cursor: pointer;
+}

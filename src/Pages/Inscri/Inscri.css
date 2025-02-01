@@ -1,0 +1,206 @@
+ .container003 {
+    position: relative;
+    background: url(./../../Assets/utica.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+  }
+  .container0003{
+    background: rgba(31, 33, 45, 0.44);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    padding: 1% 0%;
+  }
+  .container04{
+    background-color: #1F212D;
+    width: 60%;
+    margin: auto;
+  }
+  .partt1 {
+    padding-left: 7%;
+    padding-right: 3%;
+
+}
+.sectionn1 , .sectionn2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.image11{
+      width: 100%;
+
+    }
+    .sectionn-title {
+      color: #E0DED2 ;
+      font-size: 2.5vw;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.2vw;
+      text-align: left;
+  }
+  .orangee {
+    color: #FE9900;
+}
+.paraa1 {
+  color: #E0DED2 ;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 156.4%;
+  letter-spacing: 0.2vw;
+  max-width: 100%;
+  margin-top: 1.5vw;
+  text-align: left;
+  direction: ltr;
+}
+.btnn {
+  border: 0.15vw solid #FE9900;
+  background: rgba(217, 217, 217, 0.00);
+  color: #FE9900;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 156.4%;
+  letter-spacing: 0.2vw;
+  padding-top: 1vw ;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+  margin-top: 1vw;
+  text-decoration: none;
+}
+.btnn a{
+  text-decoration: none;
+  color: #FE9900;
+}
+.btnn:hover {
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+
+@media (max-width:700px){
+  .container04 {
+      padding-top: 30px;
+  }
+
+  .sectionn1{
+      display: flex;
+      flex-direction: column-reverse;
+      gap:15px;
+      padding-bottom: 20px;
+  }
+  .sectionn2{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding-bottom: 20px;
+}
+  .image11{
+      width:80%;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+
+  .partt1,.sectionn-title{
+      text-align: center;
+  }
+  .paraa1{
+      font-size: 3vw;
+      letter-spacing: 3px;
+      text-align: justify;
+      line-height: normal;
+      margin:initial;
+  }
+  .sectionn-title{
+      font-size: 5vw;
+
+  }
+  .btnn{
+      font-size: 3vw;
+      white-space: nowrap;
+      margin-top:15px;
+  }
+  .partt1{
+      padding-left: 5%;
+      padding-right: 5%;
+
+  }
+
+}
+
+
+@media (max-width:450px){
+  .container04{
+    width: 90%;
+
+  }
+  .image11{
+      width:90%;
+      margin-left: 5%;
+      margin-right: 5%;
+
+  }
+
+.paraa1{
+  font-size: 3vw;
+  letter-spacing: 2px;
+  text-align: justify;
+  line-height: normal;
+  margin:initial;
+  line-height: 1.75;
+}
+.sectionn-title{
+  font-size: 4.5vw;
+  letter-spacing: 7px;
+
+}
+.btnn{
+  font-size: 3vw;
+  white-space: nowrap;
+  margin-top:15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.sectionn1 , .sectionn2 {
+  margin-top: 30px;
+}
+}
+
+@media (max-width:360px){
+
+  .paraa1{
+      font-size: 3vw;
+      letter-spacing: 2px;
+      text-align: justify;
+      line-height: normal;
+      margin:initial;
+  }
+  .sectionn-title{
+      font-size: 5.75vw;
+      letter-spacing: 3.5px;
+  
+  }
+  .btnn{
+      font-size: 3vw;
+      white-space: nowrap;
+      margin-top:15px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      width:50%;
+      border-top: 1px solid #FE9900;
+      border-right: 2px solid #FE9900;
+      border-bottom: 3px solid #FE9900;
+      border-left: 2px solid #FE9900;
+  
+  }
+  .container04 {
+      padding-top: 20px;
+  }
+
+
+}

@@ -1,0 +1,47 @@
+/* Dashboard.css */
+.dashboard-container {
+    /* max-width: 800px; */
+    padding-right: 100px;
+    margin: 0 auto;
+    padding-left: 1%;
+
+  }
+  
+  .inscription-table {
+    width: 90vw;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .inscription-table th, .inscription-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .inscription-table th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .delete-button {
+    background-color: #dc3545; /* Red color for delete button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10%;
+
+}
+  
+  .delete-button:hover {
+    background-color: #c82333; /* Darker red color on hover */
+  }

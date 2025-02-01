@@ -1,0 +1,53 @@
+.slideStyles {
+    position: relative;
+    height: 33.5vw;
+  }
+  
+.slideStylesWidthBackground {
+    width: 100%;
+    height: 33.5vw;
+    object-fit: cover; 
+  }
+  
+  .dotsContainerStyles {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dotStyle {
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #FE9900;
+  }
+  
+  .dotStyle.current {
+    color: #1F212D; 
+  }
+
+  @media (max-width:700px){
+    .slideStylesWidthBackground {
+      width: 100%;
+      height: 50vw;
+    }
+    .slideStyles {
+      position: relative;
+      height: 50vw;
+    }
+  }
+  @media (max-width:450px){
+    .slideStylesWidthBackground {
+      width: 100%;
+      height: 52vw;
+    }
+    .slideStyles {
+      position: relative;
+      height: 52vw;
+    }
+    .dotStyle {
+      margin: 0 3px;
+      cursor: pointer;
+      font-size: 15px;
+      color: #FE9900;
+    }
+  }

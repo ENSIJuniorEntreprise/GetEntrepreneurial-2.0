@@ -1,0 +1,165 @@
+.modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3000;
+  }
+
+  .ModalImg{
+     width: 80%;
+     height:auto;
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1F212D;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-height: 80vh; 
+    overflow-y: auto; 
+    padding-top: 50px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #E0DED2;
+  }
+  .close-btn:hover{
+    color: #9fc8d4;
+  }
+  
+  .modal-content .title{
+    color: #E0DED2;
+    font-size: 2.25vw;
+    padding-bottom: 3%;
+    border-bottom:2px solid #9fc8d4 ;
+    margin-bottom: 1%;
+    letter-spacing: 0.5vw;
+
+  }
+  .modal-content .date{
+    color: #9fc8d4;
+    font-size: 20px;
+    padding-bottom: 3%;
+  }
+  .modal-content .desc{
+    color: #E0DED2;
+    font-size: 15px;
+    padding-bottom: 1vw;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 5%;
+    white-space: pre-line; 
+
+  }
+
+  @media(max-width:735px){
+    .modal-content .title{
+        font-size: 3.5vw;
+
+      }
+  }
+
+  @media(max-width:650px){
+    .modal-content .title{
+        font-size: 4vw;
+
+      }
+      .modal-content .desc{
+        font-size: 14px;
+  
+    
+      }
+  }
+  @media(max-width:580px){
+    .modal-content .title{
+        font-size: 5vw;
+
+      }
+      .modal-content .desc{
+        font-size: 13px;
+        padding-left: 3%;
+        padding-right: 3%;
+    
+      }
+  }
+  @media(max-width:500px){
+
+
+
+    .modal-content .title{
+        font-size: 5vw;
+
+      }
+      .modal-content .desc{
+        font-size: 13px;
+        padding-left: 3%;
+        padding-right: 3%;
+    
+      }
+      .modal-content img{
+        width: 65vw;
+      }
+  }
+
+  @media(max-width:400px){
+
+
+
+    .modal-content .title{
+        font-size: 6vw;
+
+      }
+      .modal-content .date{
+        font-size: 4.5vw;
+
+      }
+      .modal-content .desc{
+        font-size: 12px;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 3%;
+    
+      }
+      .modal-content img{
+        width: 65vw;
+      }
+  }
+
+  @media(max-width:330px){
+
+
+
+    .modal-content .title{
+        font-size: 6vw;
+
+      }
+      .modal-content .date{
+        font-size: 4.5vw;
+
+      }
+      .modal-content .desc{
+        font-size: 11px;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 3%;
+        line-height: 1.35;
+    
+      }
+      .modal-content img{
+        width: 75vw;
+      }
+  }

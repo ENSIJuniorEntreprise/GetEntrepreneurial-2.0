@@ -1,0 +1,126 @@
+.allies {
+    padding: 60px 20px;
+    background-color: #E0DED2; /* Beige from your brand */
+    text-align: center;
+    overflow: hidden; /* Prevent any unwanted scrollbars */
+}
+
+.titleallies {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1F212D;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.subtitle1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.line-sub {
+    width: 20%;
+    height: 2px;
+    background-color: #FE9900;
+    margin: 0 15px;
+}
+
+.sub {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.containerPartenaires {
+    width: 100%;
+    position: relative;
+    padding-left: 2.5%;
+}
+
+.sponsor-line {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    transform: translateX(100%); /* Start from the right */
+    animation: slideIn 2s ease-out forwards; /* One-time animation */
+}
+
+.item {
+    flex-shrink: 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 200px; /* Image size is increased */
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.1); /* Image zoom on hover */
+}
+
+/* Message when no sponsors are available */
+.no-sponsors {
+    font-size: 1.5rem;
+    color: #1F212D;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* One-time animation for the sponsors sliding in from right to left */
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+        transform: translateX(0%); /* Stop at the original position */
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .titleallies {
+        font-size: 2rem;
+    }
+    .subtitle1 {
+        font-size: 1rem;
+    }
+
+    .sponsor-line {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .titleallies {
+        font-size: 1.5rem;
+    }
+    .sub {
+        font-size: 1rem;
+    }
+
+    .sponsor-line {
+        gap: 20px;
+    }
+
+    .image {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .titleallies {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,276 @@
+.EJE-container1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #E0DED2;
+}
+.EJE1 {
+    background-color: #E0DED2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.EJE-Title-Part11 .title11 {
+    color: #1F212D;
+    text-align: center;
+    font-family: 'Proxima Nova bold';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 9px;
+}
+
+.EJE-Title-Part11 .subtitle11 {
+    color: #1F212D;
+    font-family: 'Proxima Nova ExtraBold';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    justify-content: center;
+    white-space: nowrap;
+}
+.EJE-Title-Part11{
+    width: 70vw;
+    margin-right: 10%;
+}
+
+.EJE-Title-Part11 .subtitle11 .line-sub11 {
+    width: 27%;
+    height: 4px;
+    background-color: #FE9900;
+}
+
+
+.whoWeAre-section11 .partie11{
+    color: #1F212D;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4vw;
+    text-align: justify;
+
+
+}
+.whoWeAre-section11{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+}
+.whoWeAre-section11 .part222 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 7%;
+    align-content: center;
+    margin-left: 30%;
+}
+.container-chiffre1{
+    background-color: #9FC8D4;
+    color: #1F212D;
+    align-items: center;
+    border: #1F212D;
+    border-radius: 0;
+    padding: 5%;
+    width: 50%;
+    height: 120px;
+}
+.chiffre1::after{
+    background-color: #1F212D;
+}
+.container-chiffre1 .chiffre1{
+    display: flex;
+    color: #1F212D;
+    text-align: center;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5vw;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    text-decoration: underline;
+}
+
+.container-chiffre1 .label1{
+    color: #1F212D;
+    font-family: 'Proxima Nova regular';
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2vw;
+    text-align: center;
+}
+
+
+@media (max-width:900px){
+    .EJE-container1 {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: grid;
+        gap: 0%;
+    }
+    .chiffre1::after {
+        height: 3px; 
+      }
+    .container-chiffre1{
+        height: 60px;
+    }
+}
+
+
+@media (max-width:700px){
+    .EJE1,.EJE-Title-Part11{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .EJE-Title-Part11 .title11{
+        font-size: 5vw;
+        white-space: nowrap;
+    }
+    .EJE-Title-Part11 .subtitle11 {
+        font-size: 17px;
+        white-space: nowrap;
+
+    }
+    .EJE-Title-Part11 .subtitle11 .line-sub11 {
+        width: 15%;
+        height: 3px;
+    }
+
+    .partie11{
+        width: 100%;     
+    }
+    .partie11 div{
+        margin-top: 3%;
+        font-size: 3vw;
+        letter-spacing: 0.7vw;
+        text-align: justify;
+
+    }
+    .whoWeAre-section11{
+        display: block;
+    }
+    .whoWeAre-section11 .part222{
+        margin-top: 5%;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .chiffre1{
+        
+    font-size: 8vw;
+    letter-spacing: 1.5vw;
+
+    }
+    .label1{
+        font-size: 5vw;
+        letter-spacing: 0.8vw;
+        margin-top: 5%;
+    }   
+    .container-chiffre1{
+        width: 60px;
+        height: 30px;
+    }
+    .EJE-Title-Part11 .subtitle11 {
+        padding-bottom: 0;
+    }
+    
+}
+@media (max-width:600px){
+    .EJE-Title-Part11 .title11{
+        font-size: 6vw;
+    }
+    .EJE-Title-Part11 .subtitle11 {
+        margin-top: 12px;
+        letter-spacing: 3px;
+        gap:2%;
+    }
+    .EJE-Title-Part11 .subtitle11 {
+        padding-bottom: 0;
+    }
+
+
+    .EJE-container1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+}
+
+@media (max-width:500px){
+    .EJE-Title-Part11 .title11{
+        font-size: 5.5vw;
+    }
+    .EJE-Title-Part11 .subtitle11 {
+        font-size: 3vw;
+    }
+    .EJE-Title-Part11 .subtitle11 .line-sub11 {
+        width: 15%;
+        height: 2px;
+    }
+
+}
+
+@media (max-width:450px){
+    .EJE-Title-Part11 .title11{
+        font-size: 7vw;
+        letter-spacing: 5px;
+    }
+    .EJE-Title-Part11 .subtitle111 {
+        font-size: 3.5vw;
+        letter-spacing: 3px;
+
+    }
+    .EJE-Title-Part11 .subtitle11 .line-sub11 {
+        width: 13%;
+        height: 2px;
+    }
+    .container-chiffre1{
+        width: 50px;
+        height: 20px;
+    }
+    .EJE-Title-Part11 .subtitle11 {
+        padding-bottom: 0;
+    }
+
+.chiffre1::after {
+
+    height: 2px; 
+
+  }
+  .partie11 div{
+
+    line-height: 1.5;
+
+}
+
+
+
+
+}
+
+@media (max-width:360px){
+    .EJE-Title-Part11 .title11{
+        font-size: 7vw;
+        letter-spacing: 4px;
+    }
+    .EJE-Title-Part11 .subtitle11{
+        font-size: 3.5vw;
+        letter-spacing: 2px;
+
+    }
+    .EJE-Title-Part11 .subtitle11 .line-sub11 {
+        width: 15%;
+        height: 1.5px;
+    }
+
+}
+

@@ -1,0 +1,307 @@
+.container01 {
+    background-image: url(./../../../Assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -95px;
+    z-index: 1;
+    height: 98vh;
+    width: 100%;
+}
+
+.container11 {
+    background: rgba(31, 33, 45, 0.44);
+    backdrop-filter: blur(5px);
+    z-index: 20;
+    height: 102vh;
+    width: 100%;
+}
+
+.space1 {
+    height: 30%;
+}
+
+.Header-Event1 {
+    color: #E0DED2;
+    font-family: 'Gilroy ExtraBold';
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 8.8px;
+    text-align: center;
+}
+
+.get1 {
+    color: #FE9900;
+    font-family: 'Gilroy ExtraBold';
+
+}
+
+.subtitle01 {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    justify-content: center;
+}
+
+.line1 {
+    width: 20%;
+    height: 4px;
+    background-color: #9FC8D4;
+}
+
+.slogan1 {
+    color: #9FC8D4;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Photograph Signature', sans-serif;
+    margin-bottom: 0.7%;
+}
+
+.subtitle01 {
+    opacity: 0;
+    animation: fadeIn 1s forwards; 
+  }
+  
+  .line1 {
+    animation: growLine 2s forwards; 
+  }
+  
+  .slogan1 {
+    opacity: 0;
+    font-size: 2vw;
+    animation: fadeIn 1s forwards; /* Adjust the duration and delay as needed */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes growLine {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 10%;
+    }
+  }
+  
+
+  
+  
+@keyframes blobBounce {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+@media (max-width: 1000px){
+    .container11{
+        height: 500px;
+    }
+    .container01{
+        height:500px;
+    }
+    .Header-Event1{
+        font-size: 5vw;
+    }
+    .slogan1{
+        font-size: 3vw;
+    }
+}
+@media (max-width:950px) {
+
+    .space1 {
+        height: 32%;
+    }
+    .container01 {
+        height: 95vh;
+    }
+    
+    .container11 {
+        height: 95vh;
+    }
+
+}
+
+
+@media (max-width:800px) {
+
+    .space1 {
+        height: 50%;
+    }
+
+    .container11{
+        height: 400px;
+    }
+    .container01{
+        height:400px;
+    }
+
+}
+
+
+@media (max-width:650px) {
+    .subscribe1 {
+        position: absolute;
+        left: 33%;
+        transform: translate(-50%, -50%);
+    }
+
+ 
+
+    .logo21 {
+        width: 15%;
+    }
+
+}
+
+
+@media (max-width:550px) {
+
+
+    .subscribe1 {
+        padding: 1vw 6vw;
+        font-size: 20px;
+        left: 33%;
+        top:70%;
+    }
+}
+
+/*@media (max-width:500px) {
+    .container01 {
+
+        height: 70vh;
+    }
+    
+    .container11 {
+
+        height: 70vh;
+
+    }
+
+    .slogan1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .Header-Event1 {
+        font-size: 7vw;
+        letter-spacing: 7px;
+        padding-top: 1%;
+
+    }
+
+    .subscribe1 {
+        top:68%;
+        padding: 1vw 6vw;
+        font-size: 20px;
+        left: 30%;
+    }
+    
+    .space1{
+        height: 33%;
+    }
+
+}*/
+
+
+/*@media (max-width:450px) {
+    .container01 {
+        height: 65vh;
+
+    }
+    
+    .container11 {
+
+        height: 65vh;
+    }
+
+    .slogan1 {
+        font-size: 30px;
+
+    }
+    .line1 {
+        width: 15%;
+        height: 2px;
+    }
+
+    .Header-Event1 {
+        font-size: 7.5vw;
+        letter-spacing: 5px;
+        padding-top: 3%;
+
+    }
+
+    .space1 {
+        height: 40%;
+    }
+    .subscribe1 {
+        top:75%;
+        padding: 1vw 6vw;
+        font-size: 15px;
+        left: 33%;
+
+    }
+
+}*/
+
+/*@media (max-width:400px) {
+
+    .slogan1 {
+        font-size: 30px;
+
+    }
+    .line1 {
+        width: 15%;
+        height: 2px;
+    }
+
+    .Header-Event1 {
+        font-size: 8vw;
+        letter-spacing: 4px;
+
+    }
+
+    .space1 {
+        height: 40%;
+    }
+    .subscribe1 {
+        top:73%;
+        padding: 1vw 6vw;
+        font-size: 15px;
+        left: 31%;
+    }
+
+}*/
+
+@media (max-width:335px) {
+
+    .line1 {
+        height: 1px;
+    }
+
+    .Header-Event1 {
+        font-size: 8vw;
+        letter-spacing: 3px;
+
+    }
+
+    .space1 {
+        height: 35%;
+    }
+    
+
+}
+
+
+   
+
+    

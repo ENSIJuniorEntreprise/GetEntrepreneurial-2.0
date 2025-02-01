@@ -1,0 +1,351 @@
+.Article-container {
+    padding-top: 70px;
+    background-color: #1F212D;
+    padding-bottom: 70px;
+
+}
+
+.Article-container .title {
+    color: #E0DED2;
+    text-align: center;
+    font-family: "Proxima Nova ExtraBold";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 9px;
+}
+
+.Article-container .subtitle1 {
+    color: #E0DED2;
+    font-family: "Proxima Nova ExtraBold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    justify-content: center;
+
+}
+
+.Article-container .subtitle1 div{
+    text-align: center;
+}
+
+.Article-container .line-sub {
+    width: 20%;
+    height: 4px;
+    background-color: #FE9900;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+
+}
+.cont{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 3% 90% 3%;
+    gap:2%;
+    align-items: center;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.article {
+    height: 33vw;
+    background-color: #E0DED2;
+    display: flex;
+    flex-direction: column;
+    gap:2%;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.article .title {
+    color: #1F212D;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2vw;
+    white-space: pre-line;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    height: 3.5vw;
+}
+
+
+
+.article .date {
+    color: #000;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.15vw;
+    margin-left: 5%;
+}
+
+.article img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.article button{
+    border: 2px solid #1F212D;
+    background: #E0DED2;
+    width: 50%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 25%;
+    margin-top: 3%;
+    cursor: pointer;
+    
+}
+
+
+  .article:hover {
+    transform: scale(1.07); 
+  }
+.checkbtn{
+  color: #1F212D;
+text-align: center;
+font-family: "Proxima Nova Extrbold";
+font-size: 1vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.2vw;
+white-space: nowrap;
+}
+.nextBtn, .prevBtn {
+    width: 100%;
+    height: auto;
+    color: #FE9900;
+    background-color: #1F212D;
+    border: none;
+    font-size: 2em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nextBtn svg, .prevBtn svg {
+    width: 100%; 
+  }
+
+  @media (max-width:1050px){
+    .cont{
+        display: grid;
+        grid-template-columns: 3% 90% 3%;
+        gap:2%;
+        padding-left: 2vw;
+        padding-right: 2vw;
+
+    }
+    .articles{
+        gap:3%;
+    }
+    .article {
+        height: 38vw;
+    }
+    .article .date{
+        font-size: 1.5vw;
+    }
+    .article .title{
+        font-size: 1.65vw;
+        height: 4vw;
+    }
+    .checkbtn{
+        font-size: 1.4vw;
+    }
+  }
+
+  @media (max-width:900px){
+    .cont{
+        grid-template-columns: 10% 80% 10%;
+        justify-content: center;
+    }
+    .articles {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5%;
+    }
+    .article{
+        height:45vw;
+    }
+    .article .date{
+        font-size: 1.75vw;
+    }
+    .article .title{
+        font-size: 2vw;
+        height: 4.5vw;
+    }
+    .checkbtn{
+        font-size: 1.6vw;
+    }
+  }
+
+@media (max-width:700px){
+    .Article-container  .title1{
+        font-size: 5vw;
+        white-space: nowrap;
+    }
+    .Article-container  .subtitle1 {
+        font-size: 17px;
+        white-space: nowrap;
+
+    }
+    .Article-container  .line-sub {
+        width: 15%;
+        height: 3px;
+    }
+    .cont{
+        grid-template-columns: 5% 90% 5%;
+        gap:1%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .articles {
+        gap:3%;
+    }
+    .article{
+        height:60vw;
+    }
+    .article .date{
+        font-size: 2.25vw;
+    }
+    .article .title{
+        font-size: 2.85vw;
+        height: 7vw;
+    }
+    .checkbtn{
+        font-size: 2vw;
+    }
+    
+
+}
+@media (max-width:600px){
+    .Article-container  .title1{
+        font-size: 6vw;
+    }
+    .Article-container  .subtitle1 {
+        margin-top: 12px;
+        letter-spacing: 3px;
+
+gap:2%;
+    }
+    .articles {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5%;
+    
+    }
+    .cont{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 10% 60% 10%;
+        gap:5%;
+        align-items: center;
+        justify-content: center;
+    }
+    .article{
+        height: 75vw;
+    }
+    .article .date{
+        font-size: 2.75vw;
+    }
+    .article .title{
+        font-size: 3.5vw;
+        height: 8vw;
+    }
+    .checkbtn{
+        font-size: 2.5vw;
+    }
+
+}
+
+@media (max-width:500px){
+    .Article-container  .title1{
+        font-size: 5.5vw;
+    }
+    .Article-container  .subtitle1 {
+        font-size: 3vw;
+    }
+    .subtitle1  .line-sub {
+        width: 15%;
+        height: 2px;
+    }
+
+}
+
+@media (max-width:450px){
+    .Article-container  .title1{
+        font-size: 7vw;
+        letter-spacing: 5px;
+    }
+    .Article-container  .subtitle1 {
+        font-size: 3.5vw;
+        letter-spacing: 3px;
+
+    }
+    .Article-container  .line-sub {
+        width: 13%;
+        height: 2px;
+    }
+    .cont{
+        grid-template-columns: 7% 75% 7%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .article{
+        height: 85vw;
+    }
+    .article .title{
+        font-size: 4.5vw;
+        height: 10vw;
+    }
+    .article .date{
+        font-size: 3.5vw;
+    }
+    .checkbtn{
+        font-size: 2.75vw;
+        
+    }
+    
+
+}
+
+@media (max-width:360px){
+    .Article-container  .title1{
+        font-size: 7vw;
+        letter-spacing: 4px;
+    }
+    .Article-container  .subtitle1 {
+        font-size: 3.5vw;
+        letter-spacing: 2px;
+
+    }
+    .Article-container  .line-sub {
+        width: 15%;
+        height: 1.5px;
+    }
+    .cont{
+        grid-template-columns: 8% 80% 8%;
+        gap:1%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .article{
+        height:100vw
+    }
+}

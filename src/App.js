@@ -40,7 +40,7 @@ function App() {
         {/* Routes avec Navbar et Footer */}
         <Routes>
           <Route
-            path="/"
+            path="/Get-Entrepreneurial"
             element={
               <>
                 <Navbar />

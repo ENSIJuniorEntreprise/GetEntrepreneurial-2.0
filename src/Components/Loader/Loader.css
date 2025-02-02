@@ -21,8 +21,9 @@
 
 @media(max-width:600px){
     .loaderImg{
-    width: 120px;
+    width: 100px;
     left: 51%;
+    top:55%;
 
 
 }

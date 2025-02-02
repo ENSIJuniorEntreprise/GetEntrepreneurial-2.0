@@ -14,6 +14,7 @@
     padding-top: 8%;
     padding-left: 0%;
     display: grid;
+    grid-template-columns: 100%;
     gap: 8%;
 }
 .Header-Event{
@@ -261,7 +262,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    letter-spacing: 24px;
+    letter-spacing: 2px;
     width: 100%;
     text-align: center;
     padding-left: 10%;
@@ -275,7 +276,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    letter-spacing: 7px;
+    letter-spacing: 3px;
 }
 
 .two-points {
@@ -351,6 +352,7 @@
         font-size:4rem;
         max-width: max-content;
         letter-spacing: 5px;
+        width: 100%;
     }
 
     .Header-Event  {
@@ -511,12 +513,12 @@
         
     }
     .timer-container{
-        width: 95%;
+        width: 90%;
         margin-left: 3%;
     }
     .time2{
         font-size: 0.8rem;
-        letter-spacing: 5px;
+        /* letter-spacing: 2px; */
     }
 }
     
@@ -535,12 +537,12 @@
         
     }
     .timer-container{
-        width: 95%;
+        width: 90%;
         margin-left: 3%;
     }
     .time2{
         font-size: 0.8rem;
-        letter-spacing: 5px;
+        /* letter-spacing: 5px; */
     }
     .counter-container {
         height: 100px;
@@ -569,12 +571,12 @@
         
     }
     .timer-container{
-        width: 94%;
+        width: 90%;
         margin-left: 2%;
     }
     .time2{
         font-size: 0.8rem;
-        letter-spacing: 3px;
+        /* letter-spacing: 3px; */
     }
     .time1{
         letter-spacing: 3px;
@@ -623,7 +625,7 @@
     }
     .time2{
         font-size: 0.8rem;
-        letter-spacing: 2px;
+        /* letter-spacing: 2px; */
     }
     .time1{
         letter-spacing: 3px;
@@ -636,5 +638,9 @@
     .counter-container {
         height: 100px;
         margin-top: 17%;
+    }
+    .timer-container{
+        width: 90%;
+        margin-left: 2%;
     }
 }

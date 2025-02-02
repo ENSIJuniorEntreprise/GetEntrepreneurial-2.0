@@ -80,7 +80,7 @@ function Program() {
 
                 {/* Contenu dynamique */}
                 {selectedTab === "Theme" && (
-                    <div className='about2'>
+                    <div className='about11'>
                         <div>
                         <h1 className='titleabout2'>La tunisie face à son avenir : </h1>
                         <h1 className='titleabout2'>Repenser le développement économique à l'ère de l'innovation</h1>
@@ -106,7 +106,7 @@ function Program() {
                             créatrice de richesse et d’emplois de qualité. Ce processus de transformation implique : 
                         </div>                        
                         <div className='about22'>
-                            <div className='about220'>
+                            <div className='about220 about22inv'>
                                 <div className='about221'>La libéralisation de l’<span className='aboutorange'>initiative entrepreneuriale.</span></div>
                                 <div className='about222'>L'innovation comme <span className='aboutorange'>moteur </span>de croissance économique.</div>
                             </div>
@@ -224,7 +224,7 @@ function Program() {
                                     <img className='imagespeaker' src={karim} alt="" />
                                     <div className='nomspeaker'>Karim Ben Said</div>
                                 </div>
-                                <div className='speakerss2'>
+                                <div className='speakerss2 speakerss4'>
                                 <div className='speakerr'>
                                     <img className='imagespeaker' src={mounira} alt="" />
                                     <div className='nomspeaker' >Mounira Bouzouita</div>
@@ -247,14 +247,14 @@ function Program() {
                 )}
 
                 {selectedTab === "Workshops" && (
-                    <div className='about2'>
+                    <div className='about3'>
                         <div>
                         <div className='workshop1'>
-                            <div>
+                            <div className='workshop1Name'>
                             <div className='numworkshop'>Workshop 1</div>
                             <div className='nomworkshop'>Profiling des entrepreneurs</div>
                             </div>
-                            <div>
+                            <div className='workshopAnimateur'>
                             <div className='nomwork'>Haifa BEN ABDALLAH</div>
                             <div className='profession'>Directrice Exécutive de la fondation DAAM</div>
                             </div>
@@ -265,12 +265,12 @@ function Program() {
                         </div>
                         <div>
                         <div className='workshop2'>
-                            <div>
+                            <div className='workshop2Name'>
                             <div className='numworkshop2'>Workshop 2</div>
                             <div className='nomworkshop2'>From Idea to Impact :</div>
                             <div className='nomworkshop2'>Designing a Sustainable Startup</div>
                             </div>
-                            <div>
+                            <div className='workshopAnimateur2'>
                             <div className='nomwork2'>Nour BEN LAZRAK</div>
                             <div className='profession2'>CEO & Founder :Digimytch & Chrysoptera</div>
                             </div>

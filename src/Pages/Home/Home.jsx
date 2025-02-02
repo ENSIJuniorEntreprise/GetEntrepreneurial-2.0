@@ -13,7 +13,7 @@ export default function Home() {
       <Header1></Header1> 
       <Event></Event>
       <Sections></Sections> 
-      {/* <EJE></EJE> */}
+      <EJE></EJE> 
       <Articles></Articles> 
       <Allies></Allies>     
     </div>

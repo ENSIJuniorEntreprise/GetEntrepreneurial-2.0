@@ -18,24 +18,27 @@
 .numworkshop2{
     color: #FE9900;
     font-family: 'Proxima Nova bold';
-    font-size: 50px;
+    font-size: 4vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.2vw;
     text-align: center;
+    max-width: max-content;
+    white-space: nowrap;
  }
  .nomworkshop2{
     color: #1f212d;
     font-family: 'Proxima Nova bold';
-    font-size: 50px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.2vw;
     text-align: center;
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
+    width: 30vw;
  }
  .nomwork2{
     color: #E0DED2;
@@ -57,16 +60,44 @@
  }
 
 .workshop1{
-    position: absolute;
-    top: 13%;
-    left: 7%;
+    width: 100%;
+    margin: 0 auto;
     display: grid;
     gap: 50%;
+
+}
+.workshop1Name{
+    position: absolute;
+    top: 13vw;
+    left: 17vw;
+}
+.workshop2Name{
+    position: absolute;
+    top: 3vw;
+    left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.workshopAnimateur{
+    max-width: max-content;
+    position: absolute;
+    top: 30vw;
+    left:20vw;
+
+}
+.workshopAnimateur2{
+    white-space: nowrap;
+    position: absolute;
+    top: 24vw;
+    left:13vw;
+
 }
 .numworkshop{
     color: #FE9900;
     font-family: 'Proxima Nova bold';
-    font-size: 50px;
+    font-size: 4vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -76,7 +107,7 @@
  .nomworkshop{
     color: #1f212d;
     font-family: 'Proxima Nova bold';
-    font-size: 50px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -104,7 +135,7 @@
     text-align: center;
  }
 .imageworkshop {
-    height: 600px;
+    height: auto;
     width: 100%;
 }
 .speakerss2 {
@@ -112,6 +143,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .speakerss1 {
     display: flex;
     justify-content: center;
@@ -268,14 +300,34 @@
     align-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
+ .about11{
+    background-color: #E0DED2;
+    border:solid 2px #FE9900;
+    width: 80%;
+    /* display: grid; */
+    /* height: 90vw; */
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+ }
  .about2{
     background-color: #E0DED2;
     border:solid 2px #FE9900;
     width: 80%;
     display: grid;
-    height: 1400px;
+    /* height: 95vw; */
     margin: auto;
     padding-top: 40px;
+ }
+ .about3{
+    background-color: #E0DED2;
+    border:solid 2px #FE9900;
+    width: 80%;
+    display: grid;
+    height: 90vw;
+    margin: auto;
+    padding-top: 40px;
+    box-sizing:border-box;
  }
  .aboutgras{
     font-size: 2vw;
@@ -295,14 +347,15 @@
     font-weight: 800;
     color: #FE9900;
  }
+
  .titleabout2{
-    font-size: 2.3vw;
+    font-size: 2vw;
     font-weight: bold;
+    letter-spacing: 0.4vw;
     text-align: center;
     line-height: normal;
-    letter-spacing: 0.2vw;
-    margin-top: 0;
  }
+ 
 
  .about20{
     margin: 0% 6%;
@@ -312,13 +365,14 @@
     line-height: normal;
     letter-spacing: 0.2vw;
     text-align: justify;
-    height: 100px;
+    /* height: 100px; */
  }
  .about21{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0% 6%;
+    margin-top:3vw;
+    margin-bottom: 3vw;
  }
  .about211{
     background-color: #1f212d;
@@ -351,7 +405,8 @@
  .about22{
     display: grid;
     gap: 5%;
-    margin-bottom: 3%;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
  }
  .about220{
     display: flex;
@@ -384,10 +439,14 @@
     text-align: justify;
     padding: 2%;
  }
+ .panels{
+    width: 80vw;
+    border-left: 1px solid #FE9900;
+ }
  .panels1{
     background-color: #1f212d;
     padding: 1%;
-    width: auto;
+    max-width: 100%;
  }
  .numeropanel{
     color: #E0DED2;
@@ -408,6 +467,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.2vw;
+    max-width: 100%;
  }
  .panels2{
     padding: 1% 3%;
@@ -425,15 +485,19 @@
     align-items: center;
     justify-content: center;
  }
+ .speakerr {
+    width: 200px;
+    display: grid;
+    gap: 1%;
+    justify-content: center;
+}
  @media only screen and (max-width: 1250px) {
      .titleabout2{
         font-size: 2vw;
         font-weight: bold;
         letter-spacing: 0.4vw;
      }
-     .container2{
-        height: 250px;
-     }
+     
     .speakerr1 {
         width: 150px;
         display: grid;
@@ -447,13 +511,67 @@
         gap: 1%;
         justify-content: center;
     }
+    .workshopAnimateur{
+      
+        top: 30vw;
+        left:16vw;
+    
+    }
+    .workshopAnimateur2{
+    
+        top: 24vw;
+        left:10vw;
+    
+    }
+    
+     .nomworkshop2{
+        
+        font-size: 1.5rem;
+        
+     }
+     .nomworkshop{
+        
+        font-size: 1.5rem;
+        
+     }
 
  }
+ @media only screen and (max-width: 1080px) {
+
+   .workshopAnimateur{
+     
+       top: 30vw;
+       left:16vw;
+   
+   }
+   .workshopAnimateur2{
+   
+       top: 24vw;
+       left:6vw;
+   
+   }
+   
+    .nomworkshop2{
+       
+       font-size: 1.5rem;
+       
+    }
+    .nomworkshop{
+       
+       font-size: 1.5rem;
+       
+    }
+    .nomspeaker, .nomspeaker1 {
+        font-size: 1.5vw;
+    }
+
+}
  @media only screen and (max-width: 1000px) {
+    
     .titleabout2{
        font-size: 2vw;
        font-weight: bold;
-       letter-spacing: 0.4vw;
+       letter-spacing: 0.2vw;
        padding: 0 2%;
     }
     .about2{
@@ -463,44 +581,49 @@
     .about211{
         width: 100px;
         gap: 2%;
-        padding: 1%;
-        margin-top: 0%;
+        padding: 5%;
         height: 100px;
      }
      .about221{
         width: 30%;
         font-size: 2vw;
         font-style: normal;
-        letter-spacing: 0.4vw;
+        letter-spacing: 0.2vw;
         padding: 2%;
+        padding-bottom: 3%;
         height: 57px;
      }
      .about222{
         width: 30%;
         font-size: 2vw;
         font-style: normal;
-        letter-spacing: 0.4vw;
+        letter-spacing: 0.2vw;
         padding: 2%;
         height: 57px;
+        padding-bottom: 3%;
+
      }
      .aboutorange{
         font-size: 2vw;
-    letter-spacing: 0.4vw;
+    letter-spacing: 0.2vw;
      }
      .about20{
         font-size: 2vw;
-        letter-spacing: 0.4vw;
-        padding:3% 10%;
+        letter-spacing: 0.2vw;
+        /* padding:3% 10%; */
      }
      .aboutgras{
         font-size: 2vw;
-        letter-spacing: 0.4vw;
+        letter-spacing: 0.2vw;
         padding:3% 10%;
      }
-     .container2{
-        height: 220px;
-        margin-bottom: 2%;
+     .container2 {
+        height: 400px;
+        
      }
+     .container2back {
+        padding-top: 130px;
+      }
      .speakerr {
         width: 180px;
         display: grid;
@@ -522,7 +645,66 @@
     .panels2 {
         display: none;
     }
+    .workshopAnimateur2{
+   
+        top: 24vw;
+        left:4vw;
+    
+    }
 }
+@media only screen and (max-width: 950px) {
+
+    .workshopAnimateur{
+      
+        top: 30vw;
+        left:16vw;
+    
+    }
+    .workshopAnimateur2{
+    
+        top: 24vw;
+        left:3vw;
+    
+    }
+    
+    } 
+
+    @media only screen and (max-width: 900px) {
+
+        .workshopAnimateur{
+          
+            top: 32vw;
+            left:21vw;
+        
+        }
+        .workshopAnimateur2{
+        
+            top: 24vw;
+            left:9vw;
+        
+        }
+        .nomwork{
+            font-size: 2.5vw;
+        }
+        .nomwork2{
+            font-size: 2.5vw;
+        }
+        .profession, .profession2{
+            font-size: 1.5vw;
+        }
+        .nomworkshop2{
+       
+            font-size: 1.25rem;
+            
+         }
+         .nomworkshop{
+            
+            font-size: 1.25rem;
+            
+         }
+     
+        
+        } 
 
 @media only screen and (max-width: 800px) {
     .text-centered-agenda2{
@@ -539,18 +721,15 @@
        letter-spacing: 0.4vw;
        padding: 0 2%;
     }
-    .about2{
-        display: grid;
-        gap: 0%;
-        height: 1200px;
-    }
+ 
      .about1{
         width: 100px;
         height: 50px;
         font-size: 2.2vw;
      }
+     
      .container2{
-        height: 160px;
+        height: 300px;
         margin-bottom: 3%;
      }
     .speakerr1 {
@@ -560,11 +739,7 @@
         width: 120px;
         height: 120px;
     }
-    .nomspeaker1 {
-        text-align: center;
-        font-size: 0.7vw;
-        font-weight: bold;
-    }
+    
     .speakerr {
         width: 150px;
     }
@@ -572,17 +747,85 @@
         width: 120px;
         height: 120px;
     }
-    .nomspeaker {
-        text-align: center;
-        font-size: 0.7vw;
-        font-weight: bold;
+    .titrepanel{
+        font-size: 2vw;
     }
+    .panels1{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+   
 }
 @media only screen and (max-width: 752px){
+    .nomworkshop2{
+        width: 40vw;
+    }
+    .workshop2Name{
+        left:5vw;
+    }
+    .workshop1Name{
+        left:13vw;
+    }
     .speakerr1 {
         width: 120px;
     }
     .imagespeaker1{
+        width: 120px;
+        height: 120px;
+    }
+    .nomspeaker1 {
+        text-align: center;
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+    .speakerr {
+        width: 120px;
+    }
+    .imagespeaker{
+        width: 120px;
+        height: 120px;
+    }
+    .nomspeaker {
+        text-align: center;
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+    .about211{
+        width: 100px;
+        gap: 2%;
+        padding: 5%;
+        height: 100px;
+
+     }
+     
+     .speakerss, .speakerss1{
+        padding-top: 3%;
+     }
+}
+@media only screen and (max-width: 752px){
+    .nomworkshop2{
+        width: 40vw;
+    }
+    .workshop2Name{
+        left:5vw;
+    }
+    .workshop1Name{
+        left:13vw;
+    }
+    .nomworkshop2{
+        font-size: 2.5vw;
+    }
+    .nomworkshop{
+        font-size: 2.5vw;
+    }
+
+}
+@media only screen and (max-width: 600px){
+  
+    .speakerr1 {
+        width: 100px;
+    }
+    .imagespeaker1{
         width: 100px;
         height: 100px;
     }
@@ -595,27 +838,42 @@
         width: 120px;
     }
     .imagespeaker{
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
-    .nomspeaker {
+    .nomspeaker, .nomspeaker1 {
         text-align: center;
-        font-size: 1.5vw;
+        font-size: 2vw;
         font-weight: bold;
     }
+   
+     .speakerss, .speakerss1{
+        padding-top: 3%;
+     }
 }
 @media only screen and (max-width: 550px) {
+    .about221,.about222{
+        
+        padding-bottom: 0%;
+       
+     }
+     
+     .container2 {
+
+        height: 300px;
+
+        background-size: 100% auto;
+        background-position: 0% -5%;
+        
+
+     }
     .titleabout2{
        font-size: 2vw;
        font-weight: bold;
        letter-spacing: 0.4vw;
        padding: 0 2%;
     }
-    .about2{
-        display: grid;
-        gap: 0%;
-        max-height: 1000px;
-    }
+    
      .about1{
         width: 80px;
         height: 30px;
@@ -639,11 +897,7 @@
         width: 80px;
         height: 80px;
     }
-    .nomspeaker1 {
-        text-align: center;
-        font-size: 1.4vw;
-        font-weight: bold;
-    }
+    
     .speakerr {
         width: 100px;
     }
@@ -651,36 +905,82 @@
         width: 80px;
         height: 80px;
     }
-    .nomspeaker {
-        text-align: center;
-        font-size: 1.4vw;
-        font-weight: bold;
-    }
+   
     .numeropanel{
         font-size: 17px;
     }
     .titrepanel{
         font-size: 15px;
     }
-    .speakerss{
-        margin: 5%;
+    .speakerss2{
+        display: flex;
+        margin-top: 10px;
+        gap:10%;
+     }
+     .speakerss2{
+        display: flex;
+        flex-direction: column;
+        gap:30%;
+     }
+     .speakerr2{
+        gap:30%;
+
+     }
+     .speakerss4{
+        display: flex;
+        flex-direction: row!important;
+        gap:10%;
+        align-items: flex-end;
+     }
+     
+    .imagespeaker1, .imagespeaker{
+        width: 20vw;
+        height: auto;
     }
-    .speakerss1{
-        margin: 5%;
+    .workshopAnimateur{
+          
+        top: 34vw;
+        left:18vw;
+    
+    }
+    .workshopAnimateur2{
+    
+        top: 25vw;
+        left:12vw;
+    
     }
 }
 @media only screen and (max-width: 500px) {
+    .workshopAnimateur{
+          
+        top: 34vw;
+        left:18vw;
+    
+    }
+    .workshopAnimateur2{
+    
+        top: 28vw;
+        left:12vw;
+    
+    }
+    .about3{
+        padding-top:10px;
+        height: 95vw;
+
+     }
+    .workshop2Name{
+        top:8vw;
+    }
+    .workshop1Name{
+        top:15vw;
+    }
     .titleabout2{
-       font-size: 2vw;
+       font-size: 3vw;
        font-weight: bold;
        letter-spacing: 0.4vw;
        padding: 0 2%;
     }
-    .about2{
-        display: grid;
-        gap: 0%;
-        max-height:1000px;
-    }
+    
      .about1{
         width: 80px;
         height: 30px;
@@ -697,28 +997,18 @@
         bottom: 98%; 
         left: 10%;
      } 
-     .speakerr1 {
-        width: 80px;
-    }
-    .imagespeaker1{
-        width: 70px;
-        height: 70px;
-    }
+     
+    
     .nomspeaker1 {
         text-align: center;
-        font-size: 1.4vw;
+        font-size: 2vw;
         font-weight: bold;
     }
-    .speakerr {
-        width: 80px;
-    }
-    .imagespeaker{
-        width: 70px;
-        height: 70px;
-    }
+    
+    
     .nomspeaker {
         text-align: center;
-        font-size: 1.4vw;
+        font-size: 2vw;
         font-weight: bold;
     }
     .numeropanel{
@@ -727,50 +1017,116 @@
     .titrepanel{
         font-size: 15px;
     }
-    .speakerss{
-        margin: 5%;
+    .speakerr2 {
+        gap: 10%;
     }
-    .speakerss1{
-        margin: 5%;
+    .about20, .aboutgras{
+        font-size: 2.5vw;
+        margin-top: 5vw;
+    }
+    .about2110 {
+        font-size: 3vw;
+      
+    }
+    .about2111 {
+        font-size: 2vw;
+
+    }
+    
+    
+    .about221, .about222, .aboutorange {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 3vw;
+        text-align: center;
+        text-justify: center;
+        height: auto;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        
+    }
+    
+    .about220{
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+    }
+    .about22inv{
+        flex-direction: column-reverse!important;
     }
 }
+@media only screen and (max-width: 450px) {
+   .imagespeaker,.imagespeaker1{
+    width: 25vw;
+   }
+   .speakerss4{
+    gap:3%;
+   }
+   .about211 {
+    width: 80px;
+    height: 80px;
+}
+
+}
 @media only screen and (max-width: 400px) {
-    .about1{
+    .container2{
+        height: 270px;
+     }
+     .nomspeaker,.nomspeaker1{
+        font-size: 2.25vw;
+     }
+    
+         .about1{
         padding-top: -20%;
     }
-    .about221{
+    /* .about221{
         width: 30%;
         font-size: 2vw;
         font-style: normal;
         letter-spacing: 0.4vw;
         padding: 2%;
         height: 40px;
-     }
-     .about222{
+     } */
+     /* .about222{
         width: 30%;
         font-size: 2vw;
         font-style: normal;
         letter-spacing: 0.4vw;
         padding: 2%;
         height: 40px;
-     }
-     .about211{
+     } */
+     /* .about211{
         width: 80px;
         gap: 2%;
         padding: 1%;
         margin-top: 0%;
         height: 80px;
-     }
-     .container2 {
-        height: 100px;
-     }
+     } */
+     
      .abouttheme{
         font-size: 3vw;
         letter-spacing: 0.2vw;
      }
      .speakerss2{
-        display: grid;
+        display: flex;
+        margin-top: 10px;
+        /* gap:10%; */
      }
+     .speakerss2{
+        display: flex;
+        flex-direction: column;
+        /* gap:30%; */
+     }
+     .speakerr2{
+        gap:10%;
+
+     }
+    .imagespeaker1{
+        width: 30vw;
+        height: auto;
+    }
 
 }
 @media only screen and (max-width: 350px) {
@@ -782,7 +1138,7 @@
         gap: 0%;
  
     }
-    .about221{
+    /* .about221{
         width: 30%;
         font-size: 2vw;
         font-style: normal;
@@ -804,13 +1160,17 @@
         padding: 1%;
         margin-top: 0%;
         height: 80px;
-     }
+     } */
      .about1{
         width: 60px;
         height: 20px;
         font-size: 3vw;
 
      }
+     .about211 {
+        width: 70px;
+        height: 80px;
+    }
      .nomspeaker{
         font-size: 3vw;
      }
@@ -834,9 +1194,20 @@
         bottom: 99%; 
         left: 10%;
      } 
-     .speakerss2{
-        display: grid;
+     
+     .speakerss{
+        display: flex;
+        flex-direction: column;
      }
+     .speakerss2{
+        display: flex;
+        flex-direction: column;
+     }
+     .speakerr2, .speakerss4 {
+        display: flex;
+        flex-direction: column!important;
+    }
+    
 }
 
 /*.vertical-timeline::before {

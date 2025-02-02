@@ -260,6 +260,16 @@ text-align: justify;
         width: 140px;
         height: 90px;
     }
+    .label {
+        color: #1F212D;
+        font-family: 'Proxima Nova regular';
+        font-size: 1.75vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.2vw;
+        margin-top: 5%;
+    }
 }
 
 
@@ -278,8 +288,11 @@ text-align: justify;
         flex-direction: column;
         border: 2px solid #FE9900;
         align-items: center;
-        width: 130px;
+        width: 110px;
         height: 80px;
+    }
+    .chiffre{
+        font-size: 2rem;
     }
 }
 
@@ -290,7 +303,7 @@ text-align: justify;
         flex-direction: column;
         border: 2px solid #FE9900;
         align-items: center;
-        width: 140px;
+        width: 120px;
         height: 80px;
     }
     .EJE,.EJE-Title-Part{
@@ -326,7 +339,7 @@ text-align: justify;
     .partie1 div{
         margin-top: 3%;
         font-size: 3vw;
-        letter-spacing: 0.7vw;
+        letter-spacing: 0.7*vw;
         text-align: justify;
 
     }
@@ -349,7 +362,7 @@ text-align: justify;
     }
     .label{
         font-size: 2vw;
-        letter-spacing: 0.8vw;
+        letter-spacing: 0.4vw;
         margin-top: 5%;
         padding: 1vw;
     }
@@ -409,7 +422,7 @@ gap:2%;
     flex-direction: column;
     border: 2px solid #FE9900;
     align-items: center;
-    width: 120px;
+    width: 110px;
     height: 80px;
 }
 }
@@ -480,8 +493,12 @@ gap:2%;
     line-height: 1.5;
 
 }
-
-
+.chiffre{
+    font-size: 1.5rem;
+}
+.label{
+    font-size: 0.55rem;
+}
 
 
 }
@@ -499,6 +516,24 @@ gap:2%;
     .EJE-Title-Part .subtitle .line-sub {
         width: 15%;
         height: 1.5px;
+    }
+    .container-chiffre{
+        width: 70px;
+        height: 60px;
+        box-sizing: border-box;
+    }
+
+}
+@media (max-width:300px){
+    .container-chiffre{
+        width: 70px;
+        height: 60px;
+        box-sizing: border-box;
+    }
+    .part2{
+        gap: 2%,  !important;;
+        box-sizing: border-box;
+
     }
 
 }

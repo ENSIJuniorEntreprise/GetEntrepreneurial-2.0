@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <div >
       <Header1></Header1> 
-      <Event></Event> 
+      <Event></Event>
       <Sections></Sections> 
-      <EJE></EJE>
-      <Articles></Articles>
-      <Allies></Allies>    
+      {/* <EJE></EJE> */}
+      <Articles></Articles> 
+      <Allies></Allies>     
     </div>
   );
 }

@@ -7,7 +7,7 @@
     background-attachment: fixed;
     margin-top: -95px;
     z-index: 1;
-    height: 102vh;
+    height: 100vh;
   }
   .container0003{
     background: rgba(31, 33, 45, 0.44);
@@ -15,12 +15,13 @@
     width: 100%;
     height: 100%;
     padding: 1% 0%;
-    padding-top: 110px;
-  }
+    padding-bottom: 0;
+      }
   .container04{
     background-color: #1F212D;
     width: 60%;
     margin: auto;
+    margin-top: 95px;
   }
   .partt1 {
     padding-left: 7%;

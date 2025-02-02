@@ -136,6 +136,7 @@ nav{
 .current-page {
     color: #9fc8d4 !important;
     position: relative;
+
   }
   
   .current-page::after {
@@ -238,6 +239,11 @@ nav{
        
    }
 
+   .nav-about .nav{
+    background-color: transparent;
+   }
+
+
    .arrow-down{
     display: none;
    }
@@ -245,8 +251,10 @@ nav{
     display: none;
    }
    .nav.current-page{
-    background-color: transparent;
-    border: none;
+    /* background-color: transparent; */
+     border: none; 
+     border-bottom: solid rgb(183, 179, 179) 1px;
+     
    }
    .Nav-btn{
        display: block;
@@ -267,7 +275,7 @@ nav{
     content: "";
     display: none;
 
-  }
+  } 
    
 }
 

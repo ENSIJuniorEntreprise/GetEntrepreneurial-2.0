@@ -598,7 +598,7 @@
     .footer ul{
         margin:inherit;
         padding: inherit;
-        margin-left: 7%;
+        margin: 0 auto
     }
 
     .part3,
@@ -775,11 +775,6 @@
         width: 80%;
     }
 
-
-
-
-
-
     span.footer-span {
         font-size: 4vw;
 
@@ -817,26 +812,24 @@
     }
     .footer ul .footer-a {
         font-size: 4.5vw;
-    }
-    .part22{
-        margin-left: 23vw;
-    }
+        max-width: max-content;
 
-
+    }
+    .footer ul  {
+        margin-left: -5%;
+        max-width: max-content;
+    }
+  
 }
 
 
 @media (max-width:300px) {
-    .part22{
-        margin-left: 28vw;
-    }
+    
     .logo-img {
         width: 80%;
     }
 
-    .footer ul{
-        margin-left: 4%;
-    }
+   
 
     .icones {
         width: 8vw;

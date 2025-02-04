@@ -224,7 +224,7 @@ function Participant() {
                       </div>
           <div className="formContainerexposant">
             <div className="formBoxexposant">
-              <div className="sous-titreexp">PARTICIPEZ DÈS À PRÉSENT</div>
+              <div className="sous-titreexp">Participez dès à présent</div>
 
               <form onSubmit={handleSubmit}  ref={myRef} noValidate>
 
@@ -505,7 +505,8 @@ function Participant() {
                         <option value="" disabled>Sélectionner le Statut</option>
                         <option value="Etudiant">Étudiant(e)</option>
                         <option value="Diplomé">Jeune diplômé(e)</option>
-                        <option value="Employé">Salarié(e)</option>
+                        <option value="Employé">Professionnel</option>
+                        <option value="Entrepreneur">Entrepreneur(e)</option>
                       </select>
                       {Status && (
                         <div className="valid-feedback">

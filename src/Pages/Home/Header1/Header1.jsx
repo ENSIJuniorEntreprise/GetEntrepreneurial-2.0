@@ -90,8 +90,7 @@ export default function Header1() {
           <FaMapMarkerAlt className="icon1" />
           <div className="utica">UTICA,</div>
           <div className="date">5</div>
-          <div className="th">th</div>
-          <div className="jan">FEBRUARY 2025</div>
+          <div className="jan">FÉVRIER 2025</div>
         </div>
         <div className="bouttonsheader">
         <button className="subscribe"><Link to="/Register1" >S'INSCRIRE {">"} </Link></button>

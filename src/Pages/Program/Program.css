@@ -10,11 +10,40 @@
 }*/
 .workshop2{
     position: absolute;
-    top: 55%;
+    top: 28%;
     left: 40%;
     display: grid;
     gap: 50%;
 }
+.workshop4{
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    display: grid;
+    gap: 50%;
+}
+.workshop3{
+    position: absolute;
+    top: 49%;
+    left: 3%;
+    display: grid;
+    gap: 50%;
+}
+
+.workshop3 .workshop1Name div{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.workshop3 .workshopAnimateur div{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+}
+
 .numworkshop2{
     color: #FE9900;
     font-family: 'Proxima Nova bold';
@@ -66,6 +95,7 @@
     gap: 50%;
 
 }
+
 .workshop1Name{
     position: absolute;
     top: 13vw;
@@ -93,6 +123,10 @@
     top: 24vw;
     left:13vw;
 
+}
+.workshop4 .workshopAnimateur2{
+    top: 23vw;
+    left:13vw;
 }
 .numworkshop{
     color: #FE9900;
@@ -286,7 +320,7 @@
     width: 80%;
     padding: auto;
     position: absolute;
-    bottom: 98%; 
+    top:-40px;
     left: 10%;
  } 
  .about1{
@@ -324,10 +358,11 @@
     border:solid 2px #FE9900;
     width: 80%;
     display: grid;
-    height: 90vw;
+    /* height: 150vw; */
     margin: auto;
     padding-top: 40px;
     box-sizing:border-box;
+    /* padding-bottom: 30px; */
  }
  .aboutgras{
     font-size: 2vw;
@@ -534,6 +569,14 @@
         font-size: 1.5rem;
         
      }
+      .workshop4 .workshop2Name{ 
+        left:8vw;
+        top:5vw;
+      }
+      .workshop4 .workshopAnimateur2{
+        top: 23vw;
+        left:9vw;
+    }
 
  }
  @media only screen and (max-width: 1080px) {
@@ -563,6 +606,10 @@
     }
     .nomspeaker, .nomspeaker1 {
         font-size: 1.5vw;
+    }
+    .workshop4 .workshopAnimateur2{
+        top: 23vw;
+        left:6vw;
     }
 
 }
@@ -651,6 +698,10 @@
         left:4vw;
     
     }
+    .workshop4 .workshopAnimateur2{
+        top: 23vw;
+        left:4vw;
+    }
 }
 @media only screen and (max-width: 950px) {
 
@@ -666,6 +717,10 @@
         left:3vw;
     
     }
+    .workshop4 .workshopAnimateur2{
+        top: 23vw;
+        left:3vw;
+    }
     
     } 
 
@@ -677,9 +732,15 @@
             left:21vw;
         
         }
+        .workshop3 .workshopAnimateur{
+          
+            top: 30vw;
+            left:18vw;
+        
+        }
         .workshopAnimateur2{
         
-            top: 24vw;
+            top: 25vw;
             left:9vw;
         
         }
@@ -702,6 +763,10 @@
             font-size: 1.25rem;
             
          }
+         .workshop4 .workshopAnimateur2{
+            top: 23vw;
+            left:11vw;
+        }
      
         
         } 
@@ -754,12 +819,15 @@
         padding-top: 2%;
         padding-bottom: 2%;
     }
+    .about0{
+        top:-30px;
+     } 
    
 }
 @media only screen and (max-width: 752px){
-    .nomworkshop2{
+    /* .nomworkshop2{
         width: 40vw;
-    }
+    } */
     .workshop2Name{
         left:5vw;
     }
@@ -801,6 +869,15 @@
      .speakerss, .speakerss1{
         padding-top: 3%;
      }
+     .workshop4 .workshop2Name{ 
+        left:8vw;
+        top:5vw;
+        
+      }
+      .workshop4 .nomworkshop2{ 
+        max-width: 30vw;
+        
+      }
 }
 @media only screen and (max-width: 752px){
     .nomworkshop2{
@@ -808,9 +885,11 @@
     }
     .workshop2Name{
         left:5vw;
+        top:6vw
     }
     .workshop1Name{
         left:13vw;
+        top:15vw;
     }
     .nomworkshop2{
         font-size: 2.5vw;
@@ -850,6 +929,18 @@
      .speakerss, .speakerss1{
         padding-top: 3%;
      }
+     .workshopAnimateur{
+          
+        top: 34vw;
+        left:18vw;
+    
+    }
+    .workshopAnimateur2{
+    
+        top: 27vw;
+        left:12vw;
+    
+    }
 }
 @media only screen and (max-width: 550px) {
     .about221,.about222{
@@ -883,13 +974,13 @@
   
      .body-timeline{
         display: grid;
-        gap: 2%;
+        /* gap: 2%; */
      }
+
      .about0{
-        position: absolute;
-        bottom: 98%; 
-        left: 10%;
+        top:-20px;
      } 
+   
      .speakerr1 {
         width: 100px;
     }
@@ -945,13 +1036,13 @@
     }
     .workshopAnimateur2{
     
-        top: 25vw;
+        top: 27vw;
         left:12vw;
     
     }
 }
 @media only screen and (max-width: 500px) {
-    .workshopAnimateur{
+    .workshop3 .workshopAnimateur ,.workshopAnimateur{
           
         top: 34vw;
         left:18vw;
@@ -965,7 +1056,7 @@
     }
     .about3{
         padding-top:10px;
-        height: 95vw;
+        /* height: 95vw; */
 
      }
     .workshop2Name{
@@ -990,14 +1081,18 @@
   
      .body-timeline{
         display: grid;
-        gap: 2%;
+        /* gap: 2%; */
      }
-     .about0{
+     /* .about0{
         position: absolute;
         bottom: 98%; 
         left: 10%;
-     } 
-     
+     }  */
+     .workshop4 .workshop2Name{ 
+        left:8vw;
+        top:8vw;
+        
+      }
     
     .nomspeaker1 {
         text-align: center;
@@ -1032,6 +1127,10 @@
         font-size: 2vw;
 
     }
+    .workshop4 .workshopAnimateur2{
+        top: 27vw;
+        left:11vw;
+    }
     
     
     .about221, .about222, .aboutorange {
@@ -1056,6 +1155,12 @@
     .about22inv{
         flex-direction: column-reverse!important;
     }
+    .speakerss{
+        display: grid;
+        grid-template-columns: 35% 35%;
+        grid-template-rows: 1fr 1fr;
+    }
+    
 }
 @media only screen and (max-width: 450px) {
    .imagespeaker,.imagespeaker1{
@@ -1130,9 +1235,9 @@
 
 }
 @media only screen and (max-width: 350px) {
-    .body-timeline{
+    /* .body-timeline{
         gap: 1%;
-    }
+    } */
     .about2{
         display: grid;
         gap: 0%;
@@ -1185,14 +1290,7 @@
         margin-top: 2%;
      }
      .about0{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 80%;
-        padding: auto;
-        position: absolute;
-        bottom: 99%; 
-        left: 10%;
+        top:-15px;
      } 
      
      .speakerss{

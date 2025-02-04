@@ -38,7 +38,7 @@ export default function EJE() {
         <div className="part2">
 
           <div className="container-chiffre ch1">
-            <div className="chiffre">+<Chiffre number="18" adding="" /></div>
+            <div className="chiffre">+<Chiffre number="19" adding="" /></div>
             <div className="label">Ans</div>
           </div>
 
@@ -48,12 +48,12 @@ export default function EJE() {
           </div>
 
           <div className="container-chiffre ch3">
-            <div className="chiffre">+<Chiffre number="25" adding="" /></div>
+            <div className="chiffre">+<Chiffre number="28" adding="" /></div>
             <div className="label">Événements</div>
           </div>
 
           <div className="container-chiffre ch4">
-            <div className="chiffre">+<Chiffre number="75" adding="" /></div>
+            <div className="chiffre">+<Chiffre number="82" adding="" /></div>
             <div className="label">Projets</div>
           </div>
 

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Modal.css";
+import tunisie from "./../../../Assets/tunisie.jpg"
+
 
 export default function Modal({ article, onClose }) {
   const baseURL = "https://get-entrepreneurial-sxzw.vercel.app";
@@ -20,7 +22,8 @@ export default function Modal({ article, onClose }) {
     <div className="modal" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <span className="close-btn" onClick={onClose}>&times;</span>
-        <img className="ModalImg" src={`${baseURL}/api/Article/ArticleImg/${article.img}`} alt={article.title} />
+        {article.img===tunisie ?(<img className="ModalImg" src={tunisie} alt={article.title} />):
+        (<img className="ModalImg" src={`${baseURL}/api/Article/ArticleImg/${article.img}`} alt={article.title} />)}
         <div className="date">
           {new Date(article.date).toLocaleDateString('en-GB', {
             day: 'numeric',

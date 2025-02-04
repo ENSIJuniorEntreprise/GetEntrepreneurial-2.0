@@ -19,6 +19,13 @@ import fatma from './../../Assets/fatma.png';
 import hamed from './../../Assets/hamed.png';
 import hamedmod from './../../Assets/hamed mod.png';
 import nour from './../../Assets/Nourbenlazrak.png';
+import lmra from "./../../Assets/lmraa.png";
+import blockchain from "./../../Assets/blockchain (2).png"
+import dorra from "./../../Assets/Dorra BOUGUELLA.png";
+import tawfik from "./../../Assets/Taoufik RAJHI.png"
+import walid from "./../../Assets/Walid bel hadj amor.png"
+import imen from "./../../Assets/Imen BEN JEMIAA.png"
+import wassima from "./../../Assets/Wassima Saber.png"
 
 
 function Program() {
@@ -182,7 +189,11 @@ function Program() {
                                 </div>
                                 <div className='speakerr'>
                                     <img className='imagespeaker' src={maghraoui} alt="" />
-                                    <div className='nomspeaker' >Karim Maghraoui</div>
+                                    <div className='nomspeaker' >Karim Meghraoui</div>
+                                </div>
+                                <div className='speakerr'>
+                                    <img className='imagespeaker' src={dorra} alt="" />
+                                    <div className='nomspeaker' >Dorra Bouguella</div>
                                 </div>
 
                             
@@ -205,8 +216,12 @@ function Program() {
                                     <div className='nomspeaker' >Ridha Gouiaa</div>
                                 </div>
                                 <div className='speakerr'>
-                                    <img className='imagespeaker' src={fatma} alt="" />
-                                    <div className='nomspeaker'>Fatma Braham</div>
+                                    <img className='imagespeaker' src={walid} alt="" />
+                                    <div className='nomspeaker'>Walid Bel Hadj Amor</div>
+                                </div>
+                                <div className='speakerr'>
+                                    <img className='imagespeaker' src={tawfik} alt="" />
+                                    <div className='nomspeaker'>Taoufik Rajhi</div>
                                 </div>
                                 </div>
                                 </div>
@@ -220,22 +235,30 @@ function Program() {
 
                                 L’innovation durable offre à la Tunisie une opportunité stratégique de devenir un leader régional en durabilité.</div>
                                 <div className='speakerss1'>
-                                <div className='speakerr' >
-                                    <img className='imagespeaker' src={karim} alt="" />
-                                    <div className='nomspeaker'>Karim Ben Said</div>
+                                <div className='speakerr1' >
+                                    <img className='imagespeaker1' src={karim} alt="" />
+                                    <div className='nomspeaker1'>Karim Ben Said</div>
                                 </div>
-                                <div className='speakerss2 speakerss4'>
-                                <div className='speakerr'>
-                                    <img className='imagespeaker' src={mounira} alt="" />
-                                    <div className='nomspeaker' >Mounira Bouzouita</div>
+                                <div className='speakerss2'>
+                                <div className='speakerr2'>  
+                                <div className='speakerr1'>
+                                    <img className='imagespeaker1' src={imen} alt="" />
+                                    <div className='nomspeaker1' >Imen Ben Jmeiaa</div>
                                 </div>
-                                <div className='speakerr'>
-                                    <img className='imagespeaker' src={louati} alt="" />
-                                    <div className='nomspeaker'>Imen Louati</div>
+                                <div className='speakerr1'>
+                                    <img className='imagespeaker1' src={louati} alt="" />
+                                    <div className='nomspeaker1'>Imen Louati</div>
                                 </div>
-                                <div className='speakerr'>
-                                    <img className='imagespeaker' src={hamed} alt="" />
-                                    <div className='nomspeaker'>Hamed Benida</div>
+                                </div>
+                                <div className='speakerr2'>
+                                <div className='speakerr1'>
+                                    <img className='imagespeaker1' src={hamed} alt="" />
+                                    <div className='nomspeaker1'>Hamed Benida</div>
+                                </div>
+                                <div className='speakerr1'>
+                                    <img className='imagespeaker1' src={wassima} alt="" />
+                                    <div className='nomspeaker1'>Wassima Saber</div>
+                                </div>
                                 </div>
                                 </div>
                                 </div>
@@ -250,6 +273,7 @@ function Program() {
                     <div className='about3'>
                         <div>
                         <div className='workshop1'>
+
                             <div className='workshop1Name'>
                             <div className='numworkshop'>Workshop 1</div>
                             <div className='nomworkshop'>Profiling des entrepreneurs</div>
@@ -279,7 +303,38 @@ function Program() {
                             <img className='imageworkshop' src={nour} alt="" />
                         </div>
                         </div>
+                        <div>
+                        <div className='workshop3'>
+                            <div className='workshop1Name'>
+                            <div className='numworkshop'>Workshop 3</div>
+                            <div className='nomworkshop'>Introduction to Hedera</div>
+                            </div>
+                            <div className='workshopAnimateur'>
+                            <div className='nomwork'>Talel BEN GHORBEL</div>
+                            <div className='profession'>Ecosystem Lead at Dar Blockchain </div>
+                            </div>
+                        </div>
+                        <div className='about20'>
+                            <img className='imageworkshop' src={blockchain} alt="" />
+                        </div>
+                        </div>
+                        <div>
+                        <div className='workshop4'>
+                            <div className='workshop2Name'>
+                            <div className='numworkshop2'>Workshop 4</div>
+                            <div className='nomworkshop2'>La Transformation SI à l'Ere du Digital</div>
+                            </div>
+                            <div className='workshopAnimateur2'>
+                            <div className='nomwork2'>Mouna DAMMAK</div>
+                            <div className='profession2'>Consultante SI chez Talys Consulting </div>
+                            </div>
+                        </div>
+                        <div className='about20'>
+                            <img className='imageworkshop' src={lmra} alt="" />
+                        </div>
+                        </div>
                     </div>
+                    
                     
                 )}
             </div>

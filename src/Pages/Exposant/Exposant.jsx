@@ -241,7 +241,7 @@ function Exposant() {
             </div>
             </div>
             <div className="formBoxparticipant">
-              <div className="sous-titre">PARTICIPEZ DÈS À PRÉSENT</div>
+              <div className="sous-titre">Participez dès à présent</div>
 
               <form onSubmit={handleSubmit}  ref={myRef} noValidate>
 
